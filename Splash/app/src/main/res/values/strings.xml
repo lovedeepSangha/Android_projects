@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Splash</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">hello_world</string>
+    <string name="title_activity_list">List</string>
+    <string name="title_activity_play">Play</string>
+    <string name="title_activity_genral">Genral</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.baldeepsingh.splash.Genral"
+    tools:showIn="@layout/activity_genral"
+    android:background="#624e8d">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/a"
+        android:onClick="action"
+        android:background="@drawable/buttonshape"
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/b"
+        android:layout_alignLeft="@+id/c"
+        android:layout_alignStart="@+id/c"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/b"
+        android:onClick="action"
+        android:layout_marginTop="91dp"
+
+        android:background="@drawable/buttonshape"
+
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/c"
+        android:onClick="action"
+        android:background="@drawable/buttonshape"
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/a"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/d"
+        android:background="@drawable/buttonshape"
+
+        android:onClick="action"
+        android:layout_below="@+id/c"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView"
+        android:layout_marginTop="51dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColorHighlight="#54ec4a"
+        android:textColor="#52e749" />
+
+</RelativeLayout>

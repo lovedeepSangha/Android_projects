@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/backgroung">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo_ImageView"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logo"
+        android:minWidth="100dp"
+        android:minHeight="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email_EditText"
+        android:textIsSelectable="false"
+        android:backgroundTint="#FCF8F8"
+        android:text="Email"
+        android:textColor="#FCF8F8"
+        android:layout_below="@+id/logo_ImageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_EditText"
+        android:textIsSelectable="false"
+        android:backgroundTint="#FCF8F8"
+        android:text="Password"
+        android:textColor="#FCF8F8"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_ImageButton"
+        android:src="@drawable/login_button"
+        android:layout_below="@+id/password_EditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No account yet ? Create one."
+        android:id="@+id/register_TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:layout_below="@+id/login_ImageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.baldeepsingh.splash">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Student Quiz"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="Student Quiz">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Student Quiz">
+            <intent-filter>
+                <action android:name="com.example.baldeepsingh.splash.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".List"
+            android:label="Play"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Genral"
+            android:label="General Quiz"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".iit"
+            android:label="IIT/JEE"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".aipmt"
+            android:label="AIPMT"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".bollywood"
+            android:label="Bollywood Quiz"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".credits"
+            android:label="Credits"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".result"
+            android:label="Result"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".result1" />
+        <activity android:name=".result2" />
+        <activity android:name=".result3" />
+        <activity android:name=".Answer"></activity>
+    </application>
+
+</manifest>
